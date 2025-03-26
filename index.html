@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>壁球世界 - 專業壁球教學與場地</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>壁球世界</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">首頁</a></li>
+                    <li><a href="coaches.html">教練團隊</a></li>
+                    <li><a href="courts.html">球場設施</a></li>
+                    <li><a href="#contact">聯絡我們</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>體驗壁球的樂趣與挑戰</h2>
+                <p>無論您是初學者還是專業選手，我們提供頂級的教練團隊和一流的球場設施</p>
+                <a href="#about" class="btn">了解更多</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">關於壁球</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>壁球是一項高強度、高技巧的室內運動，由兩名選手在四面牆的封閉場地內進行比賽。選手輪流擊打一個小橡膠球，使球至少碰到前牆一次，並在球彈跳兩次之前由對手回擊。</p>
+                    <p>壁球不僅是一項極佳的有氧運動，還能鍛鍊敏捷性、協調性和戰略思維。根據研究，一小時的壁球比賽可以燃燒高達1000卡路里的熱量！</p>
+                    <p>在我們的壁球中心，您可以享受專業教練的指導，使用頂級的球場設施，並加入充滿活力的壁球社群。</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/squash-game.jpg" alt="壁球比賽">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">我們的特色</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>專業教練</h3>
+                    <p>我們的教練團隊擁有豐富的國際比賽經驗和專業教學資格</p>
+                    <a href="coaches.html" class="btn-small">查看教練</a>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>頂級設施</h3>
+                    <p>配備國際標準的壁球場和先進的訓練設備</p>
+                    <a href="courts.html" class="btn-small">查看設施</a>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>課程多元</h3>
+                    <p>從初學者到專業選手，我們提供各種級別的課程和訓練計劃</p>
+                    <a href="#" class="btn-small">了解課程</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">聯絡我們</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>台北市信義區松仁路100號</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>02-1234-5678</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@squashworld.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p>週一至週日: 上午8點 - 晚上10點</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="電子郵件" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" id="phone" placeholder="電話">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="訊息內容" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">送出訊息</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>壁球世界</h3>
+                    <p>專業壁球教學與場地</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速連結</h4>
+                    <ul>
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="coaches.html">教練團隊</a></li>
+                        <li><a href="courts.html">球場設施</a></li>
+                        <li><a href="#contact">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>關注我們</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 壁球世界. 版權所有.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
